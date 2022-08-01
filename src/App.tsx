@@ -10,9 +10,9 @@ import {
   Poppins_500Medium,
   Poppins_700Bold
 } from '@expo-google-fonts/poppins';
-import theme from './src/global/styles/theme'
-import { AuthProvider, useAuth } from './src/hooks/auth';
-import { Routes } from './src/routes';
+import theme from './global/styles/theme'
+import { AuthProvider, useAuth } from './hooks/auth';
+import { Routes } from './routes';
 
 export default function App() {
   const [fontsLoaded] = useFonts({
